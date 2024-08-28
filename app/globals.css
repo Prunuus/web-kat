@@ -1,8 +1,26 @@
-a.button {
-    padding: 1px 6px;
-    border: 1px outset buttonborder;
-    border-radius: 3px;
-    color: buttontext;
-    background-color: buttonface;
-    text-decoration: none;
+*{
+    padding:0; margin:0;
+}
+.welcome{
+    text-align: center;
+    display:inline;
+    margin:26%;
+}
+
+.logo{
+    display:inline;
+}
+
+.navi{
+    background-color:green;
+    padding:30px;
+    text-align: center;
+}
+
+a{
+    padding: 30px;
+}
+
+a:hover{
+    background-color: lightgreen;
 }
