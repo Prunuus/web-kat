@@ -3,8 +3,10 @@
 }
 .welcome{
     text-align: center;
-    display:inline;
-    margin:26%;
+    display:inline-block;
+    background-color:rgb(0, 170, 0);
+    padding-right: 35%;
+    padding-left: 35%;
 }
 
 .logo{
@@ -12,15 +14,47 @@
 }
 
 .navi{
-    background-color:green;
-    padding:30px;
-    text-align: center;
+    display:inline;
+
+}
+
+.nav-links1{
+    margin-top: 70px !important;
+    margin-left: 30px;
+    position: absolute;
+    font-size: 20px;
+}
+
+.nav-links2{
+    margin-top: 70px !important;
+    margin-left: 100px;
+    position: absolute;
+    font-size: 20px;
+}
+
+.nav-links3{
+    margin-top: 70px !important;
+    margin-left: 170px;
+    position: absolute;
+    font-size: 20px;
+}
+
+a::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background: #000;
+    transition: transform 0.2s ease-in-out;
+    transform: scale(0);
+}
+
+a:hover::after{
+    transform: scale(1);
 }
 
 a{
-    padding: 30px;
-}
-
-a:hover{
-    background-color: lightgreen;
+    text-decoration: none;
+    color:black;
 }
