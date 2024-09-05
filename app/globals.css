@@ -20,21 +20,28 @@
 
 .nav-links1{
     margin-top: 70px !important;
-    margin-left: 30px;
+    margin-left: 4%;
     position: absolute;
     font-size: 20px;
 }
 
 .nav-links2{
     margin-top: 70px !important;
-    margin-left: 100px;
+    margin-left: 12%;
     position: absolute;
     font-size: 20px;
 }
 
 .nav-links3{
     margin-top: 70px !important;
-    margin-left: 170px;
+    margin-left: 21%;
+    position: absolute;
+    font-size: 20px;
+}
+
+.Login{
+    margin-top: 70px;
+    margin-left: 85%;
     position: absolute;
     font-size: 20px;
 }
@@ -52,6 +59,10 @@ a::after{
 
 a:hover::after{
     transform: scale(1);
+}
+
+a:hover{
+    color: red;
 }
 
 a{

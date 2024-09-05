@@ -13,6 +13,8 @@ export default function Page() {
         <a href="https://web-kat.vercel.app/About" onClick={() => router.push('./About')} className="nav-links2">About</a>
         <a href = "https://web-kat.vercel.app/Donations"onClick={() => router.push('./Donations')}className="nav-links3">Donate!</a>
 
+        <a className="Login">Login</a>
+
         <div className="welcome-area">
           <h1 className ="welcome">Welcome to Ags Reach Gift Drive!</h1>
         </div>
